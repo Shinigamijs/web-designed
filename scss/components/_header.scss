@@ -1,0 +1,14 @@
+.header {
+    max-height: 715px;
+    width: 100%;
+    &__container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 50px;
+        align-items: center;
+        min-height: 1vh;
+    }
+    .title-dark {
+        margin-top: 0px;
+    }
+}

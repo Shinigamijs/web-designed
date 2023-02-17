@@ -1,0 +1,18 @@
+.process {
+    &__container{
+    display: grid;
+    grid-template-columns: 2fr 2.5fr;
+    }
+    &__left {
+        background: url(../img/scketch.png) center (center / cover) no-repeat;
+        padding: 0 59px 59px 59px;
+    }
+    &__right-starting {
+        background: url(../img/starting.png) center (center / cover) no-repeat;
+        padding: 59px;
+    }
+    &__right-dummy {
+        background: url(../img/dummy.png) center (center / cover) no-repeat;
+        padding: 59px;
+    }
+}

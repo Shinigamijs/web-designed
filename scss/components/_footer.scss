@@ -1,0 +1,21 @@
+.footer {
+    &__container {
+        display: grid;
+        grid-template-columns: 1.5fr 3fr;
+    }
+    &__left {
+        background: url(../img/designed.png) center (center / cover) no-repeat;
+        padding: 50px 59px 50px 59px;
+    }
+    &__logo {
+        display: block;
+        margin-top: 253px;
+    }
+    &__right {        
+        background: url(../img/say-hello.png) center (center / cover) no-repeat;
+        padding: 50px 59px 50px 59px;
+    }
+    .btn {
+        margin-top: 25px;
+    }
+}

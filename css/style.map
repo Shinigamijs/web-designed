@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');\r\n\r\n* {\r\n    padding: 0;\r\n    margin: 0;\r\n}\r\n\r\nbody {\r\n    font-family: 'Roboto', sans-serif;\r\n}\r\n\r\n.container {\r\n    max-width: 1230px;\r\n    padding: 0 10px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.header {\r\n    &__container {\r\n        display: flex;\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAC,oFAAI;;AAEZ,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CACZ;;;AAED,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,oBAAoB;CACpC;;;AAED,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,MAAM;EACjB,OAAO,EAAE,MAAM;EACf,MAAM,EAAE,MAAM;CACjB;;;AAGI,AAAD,kBAAY,CAAC;EACT,OAAO,EAAE,IAAI;CAChB"
+}
